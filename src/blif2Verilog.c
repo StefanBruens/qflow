@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include <math.h>
 #include <ctype.h>
 #include <float.h>
@@ -24,10 +25,6 @@
 
 #define LengthOfLine    	16384
 #define LengthOfNodeName	512
-
-/* getopt stuff */
-extern	int	optind, getopt();
-extern	char	*optarg;
 
 #define INPUT	0
 #define OUTPUT	1
